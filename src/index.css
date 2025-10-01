@@ -1,0 +1,9 @@
+@import "tailwindcss";
+@import "@radix-ui/themes/styles.css";
+
+.radix-themes {
+  --my-brand-color: #FFB300; /* Your custom brand color */
+  --indigo-9: var(--my-brand-color); /* Remap indigo-9 to your brand color */
+  --indigo-a9: var(--my-brand-color); /* Remap indigo-a9 (for alpha variants) */
+  --accent-contrast: rgb(33, 33, 33); /* Remap indigo-a9 (for alpha variants) */
+}
